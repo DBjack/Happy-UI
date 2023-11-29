@@ -12,7 +12,7 @@ import Loading from '@@/dumi/theme/loading';
 import { ApplyPluginsType } from 'umi';
 
 
-const publicPath = "/react-ui-library-tutorial/";
+const publicPath = "/Happy-UI/";
 const runtimePublicPath = false;
 
 async function render() {
@@ -35,7 +35,7 @@ async function render() {
     initialValue: {},
   });
 
-  const basename = contextOpts.basename || '/react-ui-library-tutorial';
+  const basename = contextOpts.basename || '/Happy-UI';
   const historyType = contextOpts.historyType || 'browser';
 
   const history = createHistory({
