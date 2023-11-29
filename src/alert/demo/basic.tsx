@@ -9,6 +9,8 @@ function AlertDemo() {
         <Alert kind="info">这是一条警告提示</Alert>
         <br></br>
         <Alert kind="positive">这是一条未知提示</Alert>
+        <br></br>
+        <Alert kind="positive">这是一条未知提示</Alert>
     </React.Fragment>
 }
 
