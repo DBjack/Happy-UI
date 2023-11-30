@@ -1,17 +1,17 @@
 {
-    "compilerOptions": {
-      "baseUrl": "./",
-      "target": "esnext",
-      "module": "commonjs",
-      "jsx": "react",
-      "declaration": true,
-      "declarationDir": "lib",
-      "strict": true,
-      "moduleResolution": "node",
-      "allowSyntheticDefaultImports": true,
-      "esModuleInterop": true,
-      "resolveJsonModule": true
-    },
-    "include": ["src/components", "global.d.ts"],
-    "exclude": ["node_modules"]
-  }
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "esnext",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "lib",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "global.d.ts", ".eslintrc.js"],
+  "exclude": ["**/__tests__/**", "**/demo/**", "node_modules", "lib", "esm"]
+}

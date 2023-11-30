@@ -1,7 +1,7 @@
 import React from 'react';
 import t from 'prop-types';
  
-import { AlertProps, KindMap } from './interface';
+import type{ AlertProps, KindMap } from './interface'; 
  
 const prefixCls = 'happy-alert';
  
