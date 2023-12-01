@@ -7,5 +7,5 @@ export interface AlertProps {
      * @default info
      */
     kind?: "info" | "positive" | "negative" | "warning";
-    children: React.ReactNode;
+    children: React.ReactElement;
 }
